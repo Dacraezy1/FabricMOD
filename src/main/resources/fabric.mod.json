@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "aimassist",
+  "version": "${version}",
+  "name": "AimAssist",
+  "description": "Smoothly aims at nearby targets while you hold attack. Configurable range, FOV and speed.",
+  "authors": ["Younes"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.younes.aimassist.AimAssistClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
